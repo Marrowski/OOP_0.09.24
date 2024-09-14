@@ -19,5 +19,6 @@ class ProEditor(Editor):
             ProEditor()
             print('You haven`t access to edit document.')
 
+
 edit1 = ProEditor()
 edit1.edit_document()
