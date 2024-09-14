@@ -1,8 +1,5 @@
 #Завдання 1
 class Editor:
-    def __init__(self):
-        print('Initializing editor class.')
-
     def view_document(self):
         print('You can view document in free version.')
 
@@ -16,17 +13,11 @@ class ProEditor(Editor):
         correct_key = 'admin'
 
         if lisence_key == correct_key:
-            editor1 = Editor()
+            Editor()
             print('You have access to edit document.')
         else:
-            editor2 = ProEditor
+            ProEditor()
             print('You haven`t access to edit document.')
 
-
-editor1 = Editor()
-editor1.view_document()
-editor1.edit_document()
-
-editor2 = ProEditor()
-editor2.view_document()
-editor2.edit_document()
+edit1 = ProEditor()
+edit1.edit_document()
