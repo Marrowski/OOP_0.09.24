@@ -16,8 +16,10 @@ class ProEditor(Editor):
         correct_key = 'admin'
 
         if lisence_key == correct_key:
+            editor1 = Editor()
             print('You have access to edit document.')
         else:
+            editor2 = ProEditor
             print('You haven`t access to edit document.')
 
 
